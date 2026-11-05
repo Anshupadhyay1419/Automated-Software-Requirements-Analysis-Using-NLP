@@ -1,0 +1,101 @@
+text,type,category
+Visitors can register.,functional,
+Staff can log in.,functional,
+Users can log out.,functional,
+Users can reset their password.,functional,
+Users can create an account.,functional,
+Members can sign up with an email address.,functional,
+Members can update their profile.,functional,
+Users can delete their own account.,functional,
+Users can search for events.,functional,
+Users can buy tickets.,functional,
+Organisers can create an event.,functional,
+Organisers can cancel an event.,functional,
+Attendees can download their ticket.,functional,
+Diners can reserve a table.,functional,
+Diners can order food from the menu.,functional,
+Waiters can mark an order as served.,functional,
+Chefs can view incoming orders.,functional,
+Restaurant owners can edit the menu.,functional,
+Members can book a fitness class.,functional,
+Trainers can publish a weekly schedule.,functional,
+Members can cancel a booking.,functional,
+Agents can list a property for sale.,functional,
+Buyers can save a property to favourites.,functional,
+Buyers can contact an agent.,functional,
+Travellers can book a flight.,functional,
+Travellers can choose a seat.,functional,
+Travellers can change their booking.,functional,
+Claimants can submit an insurance claim.,functional,
+Adjusters can review a submitted claim.,functional,
+Adjusters can reject a claim.,functional,
+Team members can create a task.,functional,
+Team members can assign a task to a colleague.,functional,
+Project managers can close a project.,functional,
+Users can attach a file to a task.,functional,
+Users can comment on a post.,functional,
+Users can follow other users.,functional,
+Moderators can remove a post.,functional,
+Moderators can ban an account.,functional,
+Admins can add new users.,functional,
+Admins can view all reports.,functional,
+Admins can export reports to PDF.,functional,
+Administrators can change user roles.,functional,
+Sellers can add a new item.,functional,
+Sellers can update the price of an item.,functional,
+Buyers can write a review.,functional,
+Buyers can track a shipment.,functional,
+Shoppers can return an item.,functional,
+Shoppers can pay by card.,functional,
+Accountants can generate an invoice.,functional,
+Visitors can browse the catalogue.,functional,
+Visitors must not post comments.,functional,
+Guests must not create an event.,functional,
+Trainers must not delete a member's booking.,functional,
+Only admins can delete an account.,functional,
+Only organisers can edit an event.,functional,
+"If a booking is cancelled, the system shall refund the deposit.",functional,
+"If a claim is rejected, the system must notify the claimant.",functional,
+"When a task is completed, the system shall notify the project manager.",functional,
+The system shall send a receipt after each purchase.,functional,
+The system must display the order history.,functional,
+The system should calculate the total price of a booking.,functional,
+The app sends a notification when a ticket is sold.,functional,
+The system shall generate a weekly sales report.,functional,
+The website must let users compare two items.,functional,
+A user wants a dashboard for sales.,functional,
+The screen must load in under 3 seconds.,non_functional,performance
+The dashboard should respond within 2 seconds.,non_functional,performance
+The site must handle 20000 visitors at the same time.,non_functional,performance
+The application should be very fast.,non_functional,performance
+The app should respond quickly.,non_functional,performance
+The system must process 100 payments per second.,non_functional,performance
+The platform should scale as the number of users grows.,non_functional,performance
+Passwords must be hashed before storage.,non_functional,security
+Card details must be encrypted.,non_functional,security
+All data must be sent over a secure connection.,non_functional,security
+The system must be secure against attacks.,non_functional,security
+Users must be logged out after 10 minutes of inactivity.,non_functional,security
+Only authorised people may access personal information.,non_functional,security
+The system must lock an account after 5 failed login attempts.,non_functional,security
+The system must never store card numbers in plain text.,non_functional,security
+The app must be simple and easy to learn.,non_functional,usability
+The interface should look modern and clean.,non_functional,usability
+The application should be user-friendly.,non_functional,usability
+Buttons must be large enough to use on a phone.,non_functional,usability
+The site must work well on mobile screens.,non_functional,usability
+The site must support screen readers.,non_functional,usability
+Colours must have high contrast for readability.,non_functional,usability
+The website must be available 99.5% of the time.,non_functional,reliability
+The application should be reliable.,non_functional,reliability
+The service must restart automatically after a crash.,non_functional,reliability
+No data may be lost if the server fails.,non_functional,reliability
+A backup must be taken every day.,non_functional,reliability
+The system should keep running during maintenance.,non_functional,reliability
+The code must be well documented.,non_functional,maintainability
+The code should be easy to change.,non_functional,maintainability
+The system must be built from separate modules.,non_functional,maintainability
+The app must run on Android and iOS.,non_functional,maintainability
+The site must work in Chrome and Firefox.,non_functional,maintainability
+The system must comply with data protection law.,non_functional,other
+The system must run on the company's existing servers.,non_functional,other

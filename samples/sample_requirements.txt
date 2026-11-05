@@ -1,0 +1,25 @@
+ShopEasy Online Store - Client Brief
+
+Hi team, thanks for meeting with us last week. Our company was founded in 2009 and we sell home furniture across three cities.
+
+Customers should register, log in, search products, and place orders. Customers must also be able to track their deliveries.
+
+Guests can browse the catalogue but must not place orders. Administrators can add products and update prices. They can also export sales reports to PDF.
+
+If a payment fails, the system shall notify the customer and cancel the order. Only managers can approve refunds above 500 dollars.
+
+The website should be very fast. Product search results must appear within 2 seconds. The system must support 5000 concurrent users.
+
+All passwords must be stored in encrypted form. The system must never store card numbers in plain text.
+
+The checkout page should be easy to use. It should also look modern.
+
+The website must be available 99.9% of the time. Reports are generated every week.
+
+Shoppers must be able to sign in to the website. Customers can leave a review after a delivery.
+
+Customers can cancel an order at any time. Customers must not cancel an order after it has been shipped.
+
+Search results must appear within 5 seconds.
+
+The system should handle returns, exchanges, etc.

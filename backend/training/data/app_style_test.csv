@@ -1,0 +1,56 @@
+text,type
+Patients can book an appointment.,functional
+Doctors can view patient records.,functional
+Nurses can update a patient's chart.,functional
+Patients can cancel an appointment.,functional
+The clinic staff can print invoices.,functional
+Students can enroll in a course.,functional
+Teachers can upload assignments.,functional
+Students can submit homework online.,functional
+Teachers can grade submitted assignments.,functional
+Parents can view their child's attendance.,functional
+Customers can transfer money between accounts.,functional
+Customers can download monthly statements.,functional
+Bank staff can freeze an account.,functional
+The system shall send a confirmation email after each booking.,functional
+The app sends a reminder before each appointment.,functional
+Drivers can accept a delivery request.,functional
+Drivers can mark a delivery as completed.,functional
+Dispatchers can assign a route to a driver.,functional
+Members can reserve a book.,functional
+Librarians can add new books to the catalogue.,functional
+Members can renew a borrowed book.,functional
+Employees can apply for leave.,functional
+Managers can approve leave requests.,functional
+Guests can check in using a QR code.,functional
+Hotel staff can assign a room to a guest.,functional
+Users can filter results by date.,functional
+Users can share a document with a colleague.,functional
+Users must not edit a locked document.,functional
+Tenants can pay rent through the portal.,functional
+The system must calculate the total fee for each student.,functional
+Pages must load in under 2 seconds.,non_functional
+The search results must appear within 1 second.,non_functional
+The system must support 5000 concurrent users.,non_functional
+The server must respond to each request within 200 milliseconds.,non_functional
+Reports should be generated quickly even with large amounts of data.,non_functional
+All passwords must be stored in encrypted form.,non_functional
+All traffic must use HTTPS.,non_functional
+Patient records must be accessible only to authorised staff.,non_functional
+Sessions must expire after 15 minutes of inactivity.,non_functional
+The system must protect personal data against unauthorised access.,non_functional
+The interface must be easy to use for first-time users.,non_functional
+New users should be able to learn the application within one hour.,non_functional
+The application must be accessible to users with visual impairments.,non_functional
+The layout must adapt to mobile phone screens.,non_functional
+Error messages must be clear and easy to understand.,non_functional
+The system must be available 99.9% of the time.,non_functional
+The service must recover from a server failure within 5 minutes.,non_functional
+Data must be backed up every night.,non_functional
+The application must continue working if one server fails.,non_functional
+The website should be available at all times.,non_functional
+The code must follow the company coding standards.,non_functional
+New modules should be easy to add without changing existing code.,non_functional
+The system should be easy to maintain.,non_functional
+The application must run on Windows and Linux.,non_functional
+All modules must have automated unit tests.,non_functional

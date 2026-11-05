@@ -1,0 +1,132 @@
+{
+  "dataset": "PROMISE_exp (Lima et al., 2019) plus hand-written app-style examples",
+  "train_rows": 874,
+  "type_model": {
+    "test_rows": 194,
+    "labels": [
+      "functional",
+      "non_functional"
+    ],
+    "accuracy": 0.856,
+    "precision_macro": 0.859,
+    "recall_macro": 0.851,
+    "f1_macro": 0.853,
+    "confusion_matrix": [
+      [
+        71,
+        18
+      ],
+      [
+        10,
+        95
+      ]
+    ]
+  },
+  "category_model": {
+    "test_rows": 105,
+    "labels": [
+      "maintainability",
+      "other",
+      "performance",
+      "reliability",
+      "security",
+      "usability"
+    ],
+    "accuracy": 0.829,
+    "precision_macro": 0.763,
+    "recall_macro": 0.764,
+    "f1_macro": 0.761,
+    "confusion_matrix": [
+      [
+        3,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        6,
+        0,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        15,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        8,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        30,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        1,
+        25
+      ]
+    ]
+  },
+  "type_model_cross_project": {
+    "test_rows": 968,
+    "labels": [
+      "functional",
+      "non_functional"
+    ],
+    "accuracy": 0.749,
+    "precision_macro": 0.775,
+    "recall_macro": 0.734,
+    "f1_macro": 0.734,
+    "confusion_matrix": [
+      [
+        248,
+        196
+      ],
+      [
+        47,
+        477
+      ]
+    ]
+  },
+  "type_model_app_style": {
+    "test_rows": 55,
+    "labels": [
+      "functional",
+      "non_functional"
+    ],
+    "accuracy": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_macro": 1.0,
+    "confusion_matrix": [
+      [
+        30,
+        0
+      ],
+      [
+        0,
+        25
+      ]
+    ]
+  }
+}
